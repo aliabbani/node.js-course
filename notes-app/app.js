@@ -5,5 +5,5 @@ const getNotes = require("./node.js");
 const msg = getNotes();
 console.log(msg);
 
-const text = "Success!"
-console.log(chalk.green.bold.inverse(text));
+const text = "Error!"
+console.log(chalk.red.bold.inverse(text));
